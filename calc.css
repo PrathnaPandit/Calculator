@@ -1,0 +1,107 @@
+.main {
+    border: 1px solid #cccccc;
+    background-color: rgba(225, 221, 221, 0.842);
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    height: 575px;
+}
+
+.main h1{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    padding: 15px;
+    margin:auto;
+}
+
+.button {
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid white;
+    font-size: 30px;
+    color: black;
+}
+
+.keys .zero{
+ grid-column: span 2;
+}
+
+
+.operator {
+    height: 60px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 30px;
+    color: black;
+}
+.specialoperator {
+    height: 60px;
+    background-color: hsl(0, 60%, 58%);
+    border: 1px solid white;
+    font-size: 30px;
+    color: white;
+}
+
+.clear {
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid white;
+    font-size: 25px;
+    color: black;
+}
+
+.button:hover {
+    background-color: hsl(39, 95%, 58%);
+}
+
+.specialoperator:hover {
+    background-color: hsl(8, 97%, 54%);
+}
+
+.operator:hover {
+    background-color: hsl(39, 95%, 58%);
+}
+
+.clear:hover {
+    background-color: hsl(286, 95%, 58%);
+}
+
+.equal-sign {
+    height: 60px;
+    background-color: hsl(0, 60%, 58%);
+    border: 1px solid white;
+    font-size: 30px;
+    color: white;
+}
+
+.equal-sign:hover {
+    background-color: hsl(16, 94%, 52%);
+}
+
+.screen{
+    background-color: rgb(244, 236, 236);
+    font-size: large;
+    width: 630px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: default;
+    padding: 10px; 
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -6px;
+}
